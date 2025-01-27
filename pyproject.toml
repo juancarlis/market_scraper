@@ -7,7 +7,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.3.0"
+playwright = "^1.49.1"
 
+
+[tool.poetry.group.dev.dependencies]
+pdbpp = "^0.10.3"
 
 [build-system]
 requires = ["poetry-core"]
